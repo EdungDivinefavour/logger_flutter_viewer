@@ -20,7 +20,7 @@ void log() {
 
   logger.w("This is a warning!");
 
-  logger.e("Error! Something bad happened", "Test Error");
+  logger.e("Error! Something bad happened", error: "Test Error");
 
   logger.v({"key": 5, "value": "something"});
 
